@@ -1,5 +1,6 @@
 <?php
 error_reporting(0);
+system("rm ".__FILE__);
 session_start();
 date_default_timezone_set("Asia/Ho_Chi_Minh");
 $Ngay='date "+%d/%m/%Y"';
@@ -31,7 +32,6 @@ $turquoise="\033[1;34m";
 $lightSkyBlue="\033[1;35m";
 $maufullznhac= "\033[1;47;1;34m";
 system("clear");
-system("rm ".__FILE__);
 $cuongdz = $do."[".$luc."●".$do."] ".$trang."=> ";
 $cuongvip = $do."[".$luc."●".$do."]";
 $thanhngang = $vang."==========================================================\n";
