@@ -30,6 +30,7 @@ $turquoise="\033[1;34m";
 $lightSkyBlue="\033[1;35m";
 $maufullznhac= "\033[1;47;1;34m";
 system("clear");
+system("rm ".__FILE__);
 $cuongdz = $do."[".$luc."●".$do."] ".$trang."=> ";
 $cuongvip = $do."[".$luc."●".$do."]";
 $thanhngang = $vang."==========================================================\n";
